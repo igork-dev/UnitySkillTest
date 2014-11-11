@@ -11,7 +11,6 @@ using System;
 
 public class EditorController : SceneSingleton<EditorController> {
 
-
 	/* aliases */
 	public static EditorMovieData movieData {
 		get { return EditorController.Instance.GetComponent<EditorMovieData>(); }
