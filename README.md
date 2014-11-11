@@ -2,7 +2,7 @@ UnitySkillTest
 ==============
 Тестовое задание на вакансию Unity 3D разработчика в одну из Киевских фирм. 
 
-Инструкция к готовому программе находится в файле (Docs/readme.txt)[https://github.com/igork-dev/UnitySkillTest/blob/master/Docs/readme.txt]
+Инструкция к готовому программе находится в файле [Docs/readme.txt](https://github.com/igork-dev/UnitySkillTest/blob/master/Docs/readme.txt)
 
 #Задание:
 Написать простейший редактор 2d-анимации на любом языке.
