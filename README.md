@@ -1,6 +1,7 @@
 UnitySkillTest
 ==============
 Тестовое задание на вакансию Unity 3D разработчика в одну из Киевских гейм-дев компаний. 
+
 Опубликовано с разрешения компании. 
 
 Инструкция к готовой программе находится в файле [Docs/readme.txt](https://github.com/igork-dev/UnitySkillTest/blob/master/Docs/readme.txt)
