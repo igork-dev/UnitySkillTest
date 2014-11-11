@@ -22,8 +22,6 @@ public class EditorWorkspace : MonoBehaviour {
 	}
 	
 	public void PasteFrame() {
-
-		EditorController.workspace.ResetActivity();
 		
 		if( _clipboardFrame != null ) {
 			EditorController.movieData.data.frames[ EditorController.framesControl.currentFrameNum - 1 ] = _clipboardFrame;
@@ -97,8 +95,8 @@ public class EditorWorkspace : MonoBehaviour {
 
 	public void ResetActivity() {
 		
+		EditorController.moviePlayer.Stop();
 		HideVirtualLine();
 		SetSelectedVertex( null );
-		EditorController.moviePlayer.Stop();
 	}
 }
